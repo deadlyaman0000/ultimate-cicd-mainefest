@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: darkneth/ultimate-cicd:${IMAGE_TAG}  # Use a placeholder variable for the image tag
+        image: darkneth/ultimate-cicd:replaceImageTag  # Use a placeholder variable for the image tag
         ports:
         - containerPort: 8080
